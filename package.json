@@ -20,7 +20,8 @@
     "gulp",
     "api",
     "log",
-    "programmatically"
+    "programmatically",
+    "gulpfriendly"
   ],
   "author": "Yoshua Wuyts <i@yoshuawuyts.com>",
   "license": "MIT",

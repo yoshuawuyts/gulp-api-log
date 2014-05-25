@@ -1,5 +1,5 @@
 # gulp-api-log
-Log the gulp cli responses when consuming the api programmatically.
+A gulp friendly way of logging cli responses when consuming the api programmatically.
 
 See [gulp/489](https://github.com/gulpjs/gulp/issues/489) for more information.
 
