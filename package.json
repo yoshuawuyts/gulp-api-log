@@ -1,0 +1,31 @@
+{
+  "name": "gulp-api-log",
+  "version": "0.1.0",
+  "description": "Log the gulp cli responses when consuming the api programmatically.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "gulp-util": "~2.2.14",
+    "pretty-hrtime": "~0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshuawuyts/gulp-api-log"
+  },
+  "keywords": [
+    "gulp",
+    "api",
+    "log",
+    "programmatically"
+  ],
+  "author": "Yoshua Wuyts <i@yoshuawuyts.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshuawuyts/gulp-api-log/issues"
+  },
+  "homepage": "https://github.com/yoshuawuyts/gulp-api-log"
+}
