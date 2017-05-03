@@ -37,9 +37,8 @@ function logEvents(gulp) {
   });
 
   gulp.on('task_err', function(e) {
-    var msg = formatError(e);
     var time = prettyTime(e.hrDuration);
-    gutil.log("'" + chalk.cyan(e.task) + "'", 'errored after', chalk.magenta(time), chalk.red(msg));
+    gutil.log("'" + chalk.cyan(e.task) + "'", 'errored after', chalk.magenta(time), "\n", chalk.red(e.err.stack));
   });
 
   gulp.on('task_not_found', function(err) {
